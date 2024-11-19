@@ -3,7 +3,7 @@ import { initializeApp } from "firebase/app";
 import { getAuth, GoogleAuthProvider } from 'firebase/auth';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCQ15CTIyh7UbfUDb5GBeYVbhTJux69Fv4",
+    apiKey: "AIzaSyCQ15CTIyh7UbfUDb5GBeYVbh********",
     authDomain: "vue-firebase-d7a12.firebaseapp.com",
     projectId: "vue-firebase-d7a12",
     storageBucket: "vue-firebase-d7a12.firebasestorage.app",
