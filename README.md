@@ -200,25 +200,25 @@ Pada halaman Profile, ditampilkan data dari email pengguna berupa foto profil, n
 
 1. Create ToDo
 
-![](create_todo.png)
-![](create_todo_alert.png)
+![](gambar/create_todo.png)
+![](gambar/create_todo_alert.png)
 
 Dalam proses Create, ketika pengguna menambahkan data todo, pengguna menginputkan data title dan description. Data yang diinput dikirimkan melalui fungsi addTodo pada firestoreService. 
 Fungsi ini menambahkan data baru ke Firestore yang diambil berdasarkan uid pengguna. Data yang berhasil ditambahkan akan muncul di daftar todo melalui pembaruan data lokal.
 
 2. Read ToDo
 
-![](read_todo.png)
-![](read_todo_complete_update.png)
+![](gambar/read_todo.png)
+![](gambar/read_todo_complete_update.png)
 
 Dalam proses Read, terdapat fungsi getTodos yang digunakan untuk mengambil daftar todo pengguna. Koleksi todo diambil berdasarkan uid pengguna, kemudian diurutkan berdasarkan updatedAt 
 secara menurun. Data todo ditampilkan pada halaman utama HomePage.vue.
 
 3. Update ToDo
 
-![](update_todo.png)
-![](read_todo_alert_complete.png)
-![](read_todo_alert_active.png)
+![](gambar/update_todo.png)
+![](gambar/read_todo_alert_complete.png)
+![](gambar/read_todo_alert_active.png)
 
 Pada proses Update, pengguna dapat memperbarui isi todo melalui fungsi updateTodo. Ketika pengguna memilih untuk mengedit sebuah todo, modal input akan terbuka dengan data yang sudah ada. 
 Setelah diedit, data yang diperbarui dikirimkan ke Firestore dan diperbarui. Pengguna juga dapat mengubah status todo antara active dan completed yang diolah menggunakan computed properties 
@@ -226,7 +226,7 @@ menggunakan fungsi updateStatus.
 
 4. Delete ToDo
 
-![](delete_todo.png)
-![](delete_todo_alert.png)
+![](gambar/delete_todo.png)
+![](gambar/delete_todo_alert.png)
 Untuk Delete, pengguna dapat menghapus todo melalui swipe atau tombol. Fungsi deleteTodo akan menghapus data berdasarkan id dari Firestore. Setelah operasi delete selesai, data lokal diperbarui 
 untuk memastikan bahwa todo yang dihapus tidak lagi muncul dalam daftar.
