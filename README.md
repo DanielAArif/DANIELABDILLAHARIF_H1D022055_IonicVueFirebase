@@ -217,6 +217,7 @@ secara menurun. Data todo ditampilkan pada halaman utama HomePage.vue.
 3. Update ToDo
 
 ![](gambar/update_todo.png)
+![](gambar/update_todo_alert.png)
 ![](gambar/read_todo_alert_complete.png)
 ![](gambar/read_todo_alert_active.png)
 
@@ -228,5 +229,6 @@ menggunakan fungsi updateStatus.
 
 ![](gambar/delete_todo.png)
 ![](gambar/delete_todo_alert.png)
+
 Untuk Delete, pengguna dapat menghapus todo melalui swipe atau tombol. Fungsi deleteTodo akan menghapus data berdasarkan id dari Firestore. Setelah operasi delete selesai, data lokal diperbarui 
 untuk memastikan bahwa todo yang dihapus tidak lagi muncul dalam daftar.
