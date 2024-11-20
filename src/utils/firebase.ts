@@ -1,9 +1,10 @@
 // src/utils/firebase.ts
 import { initializeApp } from "firebase/app";
 import { getAuth, GoogleAuthProvider } from 'firebase/auth';
+import { getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCQ15CTIyh7UbfUDb5GBeYVbh********",
+    apiKey: "AIzaSyCQ15CTIyh7UbfUDb5GBeYVbhTJux69Fv4",
     authDomain: "vue-firebase-d7a12.firebaseapp.com",
     projectId: "vue-firebase-d7a12",
     storageBucket: "vue-firebase-d7a12.firebasestorage.app",
@@ -14,5 +15,8 @@ const firebaseConfig = {
 const firebase = initializeApp(firebaseConfig);
 const auth = getAuth(firebase);
 const googleProvider = new GoogleAuthProvider();
+const db = getFirestore(firebase);
 
-export { auth, googleProvider };
+// export { auth, googleProvider };
+
+export { auth, googleProvider, db };
