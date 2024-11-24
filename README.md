@@ -232,3 +232,57 @@ menggunakan fungsi updateStatus.
 
 Untuk Delete, pengguna dapat menghapus todo melalui swipe atau tombol. Fungsi deleteTodo akan menghapus data berdasarkan id dari Firestore. Setelah operasi delete selesai, data lokal diperbarui 
 untuk memastikan bahwa todo yang dihapus tidak lagi muncul dalam daftar.
+
+
+## Langkah-Langkah Build ke APK
+
+1. Buka Proyek di VSCode
+2. Menginstal dependensi ionic/cli dan npm
+
+```typescript
+npm install -g @ionic/cli
+npm install
+```
+
+3. Tambahkan platform Android
+
+```typescript
+ionic cap add android
+```
+
+4. Build Projek Ionic
+
+```
+ionic build
+```
+
+6. Sinkronkan Proyek
+
+```
+ionic cap sync android
+```
+
+7. Buka proyek di Android Studio
+
+```
+ionic cap open android
+```
+
+8. Integrasi firebase ke proyek
+- Buka firebase console
+- Pilih project setting
+- Pilih Add App Android dan atur nama dll
+- Kemudian buka cmd dan generate SHA-1 dan SHA-256 dari Keystore
+- Kembali ke firebase console, kemudian add fingerprint dengan key yang sudah didapatkan
+
+![](gambar/firebase.png)
+
+- Download file google-services.json, kemudian letakkan di direktori android/app/ pada projek
+9. Tunggu sampai proses sinkronisasi gradle selesai
+10. Pilih Build / generate signed App bundle / APK
+11. Pilih APK, kemudian konfigurasi keystore
+12. Tekan Next, lalu pilih release
+13. Jalankan apk melalui emulator dengan cara drag file apk ke layar emulator.
+
+![](gambar/apk_installed)
+![](gambar/apk_opened)
