@@ -284,5 +284,5 @@ ionic cap open android
 12. Tekan Next, lalu pilih release
 13. Jalankan apk melalui emulator dengan cara drag file apk ke layar emulator.
 
-![](gambar/apk_installed)
-![](gambar/apk_opened)
+![](gambar/apk_installed.png)
+![](gambar/apk_opened.png)
