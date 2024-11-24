@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "985093640397",
+    "project_id": "vue-firebase-d7a12",
+    "storage_bucket": "vue-firebase-d7a12.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:985093640397:android:c15891da4528e5147ed984",
+        "android_client_info": {
+          "package_name": "com.ToDoList"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "985093640397-73pbf4m3dsn7827hhggopq0kr5j1boua.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ToDoList",
+            "certificate_hash": "8f155dc4d1564a5e3fe117b4ec96276d71574ca8"
+          }
+        },
+        {
+          "client_id": "985093640397-eum5h2hk1npl2250tb9io3vn6i9aa9jg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCC52B1vu6xyD6M1HObnE2AhxE4mNwFhOI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "985093640397-eum5h2hk1npl2250tb9io3vn6i9aa9jg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
